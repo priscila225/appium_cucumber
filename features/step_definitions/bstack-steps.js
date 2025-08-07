@@ -4,7 +4,7 @@ var assert = require('assert');
 const { Given, When, Then } = require("@cucumber/cucumber");
 const { By, until } = require("selenium-webdriver");
 
-Given(/^I try to search using Wikipedia App/, async function () {
+Given(/^I try to search using khtv App/, async function () {
   await this.driver
     .wait(
       until.elementLocated(

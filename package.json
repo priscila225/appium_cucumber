@@ -9,13 +9,11 @@
   },
   "scripts": {
     "sample-test": "browserstack-node-sdk cucumber-js features/single.feature",
-    "run-browserstack": "browserstack-node-sdk cucumber-js features/single.feature --require features/step_definitions",
     "sample-local-test": "browserstack-node-sdk cucumber-js features/local.feature",
     "postinstall": "npm update browserstack-node-sdk"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^7.3.2",
-    "@wdio/cli": "^9.18.4",
     "assert": "^2.0.0",
     "browserstack-node-sdk": "latest"
   },

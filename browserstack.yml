@@ -3,8 +3,8 @@
 # =============================
 # Add your BrowserStack userName and acccessKey here or set BROWSERSTACK_USERNAME and
 # BROWSERSTACK_ACCESS_KEY as env variables
-userName: $BROWSERSTACK_USERNAME
-accessKey: $BROWSERSTACK_ACCESS_KEY
+userName: BROWSERSTACK_USERNAME
+accessKey: BROWSERSTACK_ACCESS_KEY
 
 # ======================
 # BrowserStack Reporting
@@ -25,7 +25,7 @@ source: cucumber-js:appium-sample-master:v1.0
 
 # Set `app` to define the app that is to be used for testing. 
 # It can either take the id of any uploaded app or the path of the app directly.
-app: $BITRISE_APK_PATH
+app: ./app-khtv-core-release.apk
 # app: ./LocalSample.apk #For running local tests
 
 # =======================================

@@ -1,7 +1,6 @@
-Feature: Browserstack search test
+Feature: Browserstack test
 
-  Scenario: BStack Sample Test - Search Car
-    Given I try to search using App
-    Then I click on the menu and go to Search
-    Then I search with keyword Car
+  Scenario: BStack Sample Test - Search BrowserStack
+    Given I try to search using khtv App
+    Then I search with keyword BrowserStack
     Then The search results should be listed
