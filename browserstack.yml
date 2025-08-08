@@ -28,6 +28,13 @@ source: cucumber-js:appium-sample-master:v1.0
 app: ./app-khtv-core-release.apk
 # app: ./LocalSample.apk #For running local tests
 
+# ======================
+# Appium Capabilities
+# ======================
+appium:options:
+  autoWebview: true
+  autoWebviewTimeout: 10000
+
 # =======================================
 # Platforms (Browsers / Devices to test)
 # =======================================
@@ -36,12 +43,6 @@ app: ./app-khtv-core-release.apk
 
 platforms:
   - deviceName: Samsung Galaxy S22 Ultra
-    osVersion: 12.0
-    platformName: android
-  - deviceName: OnePlus 11R
-    osVersion: 13.0
-    platformName: android
-  - deviceName: Google Pixel 6 Pro
     osVersion: 12.0
     platformName: android
 
