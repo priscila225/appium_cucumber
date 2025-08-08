@@ -8,7 +8,7 @@
     "url": "git+https://github.com/browserstack/cucumber-js-appium-app-browserstack.git"
   },
   "scripts": {
-    "sample-test": "browserstack-node-sdk cucumber-js features/single.feature",
+    "sample-test": "browserstack-node-sdk cucumber-js features/single.feature --format json:report/json-output/report.json --format progress",
     "sample-local-test": "browserstack-node-sdk cucumber-js features/local.feature",
     "postinstall": "npm update browserstack-node-sdk"
   },
@@ -20,6 +20,7 @@
   "dependencies": {
     "browserstack-local": "^1.0.0",
     "cross-env": "^5.2.0",
-    "selenium-webdriver": "4.1.2"
+    "selenium-webdriver": "4.1.2",
+    "multiple-cucumber-html-reporter": "^3.9.3"
   }
 }
