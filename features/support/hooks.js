@@ -63,7 +63,6 @@ AfterAll(function(callback) {
     generateHtmlReport({
       jsonDir: jsonDir,
       reportPath: reportPath,
-      pageTitle: `CoreApps Android - ${moment().tz('America/New_York').format('YYYY-MM-DD[T]HH:mm')} - Test Report`,
       metadata: {
         browser: {
           name: 'chrome',
